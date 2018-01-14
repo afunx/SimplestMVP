@@ -1,4 +1,4 @@
-package main.view;
+package com.afunx.mvp.main.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,12 +8,13 @@ import android.widget.Toast;
 
 import com.afunx.mvp.R;
 
-import main.MainContract;
-import main.bean.TemperatureBean;
-import main.presenter.MainPresenter;
+import com.afunx.mvp.main.MainContract;
+import com.afunx.mvp.main.bean.TemperatureBean;
+import com.afunx.mvp.main.presenter.MainPresenter;
 
 /**
  * UI for ({@link MainPresenter})
+ * MainPresenter对应的UI
  */
 public class MainActivity extends AppCompatActivity implements MainContract.View, View.OnClickListener {
 

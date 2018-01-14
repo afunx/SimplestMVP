@@ -1,7 +1,7 @@
-package main.bean;
+package com.afunx.mvp.main.bean;
 
 /**
- * TemperatureBean restore temperature in degree centigrade
+ * TemperatureBean restore temperature in degree centigrade(TemperatureBean存储了气温的摄氏度)
  */
 
 public class TemperatureBean {

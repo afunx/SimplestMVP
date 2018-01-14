@@ -1,11 +1,12 @@
-package main.model;
+package com.afunx.mvp.main.model;
 
 import java.util.Random;
 
-import main.bean.TemperatureBean;
+import com.afunx.mvp.main.bean.TemperatureBean;
+import com.afunx.mvp.main.presenter.MainPresenter;
 
 /**
- * Main Model represents model used by the Presenter （{@link main.presenter.MainPresenter})
+ * Main Model represents model used by the Presenter （{@link MainPresenter})
  * ,simulate query present temperature from the Internet
  */
 
