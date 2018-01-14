@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimplestMVP</string>
+
+    <string name="present_temperature_text">Temperatue is %1$d ℃</string>
+
+    <string name="show_temperature">Show Temperature</string>
+</resources>
